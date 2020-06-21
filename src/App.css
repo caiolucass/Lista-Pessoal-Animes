@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+
+/*Estilo de fonte do Corpo da pagina*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightcoral;
+}
+
+/*Titulo da pagina*/
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: #eeeeee;
+}
+
+/*Div de cada anime*/
+.anime {
+  background-color: #eeeeee;
+  width: 17rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+
+/*Imagem*/
+.anime img {
+  border: 50%;
+  border: 0.1rem solid teal;
+}
+
+/*Título das Imagens*/
+.anime h3,
+h5 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  color: teal;
+}
+
+/*Passar o mouse por cima da imagem ou da DIV*/
+.anime:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 10);
+}
+img:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 10);
+  cursor: pointer;
+}
+
+/*Botao do anime*/
+button {
+  margin: 0.5rem 0;
+  color: teal;
+  border: 50%;
+  cursor: pointer;
+}
+
+/*Display da lista de Animes*/
+@media screen and (min-width: 768px) {
+  .anime {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+/*Display de dentro da lista */
+@media screen and (min-width: 992px) {
+  .anime {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
