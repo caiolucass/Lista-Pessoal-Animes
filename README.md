@@ -14,7 +14,7 @@ You will also see any lint errors in the console.
 
 ### Lista de Animes
 
-Essa uma lista de animes que mais gostei de assistir, feita em React js.<br>
+Essa é minha lista de animes que mais gostei de assistir, feita em React js.<br>
 Estava com preguiça de criar um arquivo local com os links dos animes, então resolvi fazer uma lista em
 React, afim de práticar um pouco mais esse framework.
 
