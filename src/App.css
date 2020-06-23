@@ -20,7 +20,7 @@ h3 {
 /*Div de cada anime*/
 .anime {
   background-color: #eeeeee;
-  width: 17rem;
+  width: 18rem;
   padding: 1rem;
   margin: 2rem auto;
   border-radius: 0.3rem;
@@ -61,7 +61,7 @@ button {
 
 /*Display da lista de Animes*/
 @media screen and (min-width: 768px) {
-  .anime {
+  .teste {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
@@ -70,7 +70,7 @@ button {
 
 /*Display de dentro da lista */
 @media screen and (min-width: 992px) {
-  .anime {
+  .teste {
     grid-template-columns: repeat(3, 1fr);
   }
 }
